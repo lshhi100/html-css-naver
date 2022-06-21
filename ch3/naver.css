@@ -44,12 +44,16 @@
     border-radius: 2px;
     display: inline-block;
     vertical-align: middle;
+    position: relative;
 }
 
 #header-search fieldset input{
     border: none;
     padding: 0;
     outline: none;
+    vertical-align: top;
+    width: 444px;
+    height: 24px;
 }
 
 #header-search fieldset button{
@@ -59,6 +63,9 @@
     padding: 0;
     background: #19ce60;
     background-size: 457px 434px;
+    position: absolute;
+    right: -2px;
+    top: -4px;
 }
 
 #search-image{
